@@ -1,0 +1,484 @@
+/* reset css */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 40px; */
+    /* width: 40px; */
+    /* height: 200px; */
+}
+.nav_link{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(139, 69, 19, 0.589);
+    position: fixed;
+    font-size: larger;
+    height: 40px;
+    width: 100%;
+    font-size: large;
+} 
+.king_link{
+    margin-left: 40px;
+    font-family: "Caveat", cursive;
+    /* font-style: italic; */
+    font-size: small;
+color: white;   
+}
+
+
+.hero_section{
+    background-image: url(./img/pizza.jpg);
+    background-size: cover;
+    background-repeat: none;
+    /* min-height: 30vh; */
+    /* background-position: 20% 50%; */
+    background-attachment: fixed;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-position: top; */
+    /* background-attachment: fixed; */
+    /* margin-left: auto; */
+    /* text-align: justify; */
+}
+
+
+.queen_link{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 30px;
+    /* font-style: italic; */
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    font-family: "Caveat", cursive;
+}
+
+.son_link{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: medium;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    margin-left: 300px;
+    /* font-style: italic; */
+    background-color: black;
+    color: white;
+}
+
+
+.prince_link{
+    /* margin-top: 500px; */
+    /* display: inline; */
+    /* margin-inline-end: 800px; */
+    position: relative;
+    top: 270px;
+    right: 800px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: medium;
+    font-family: "Caveat", cursive;
+    /* font-style: italic; */
+    background-color: black;
+    color: white;
+    /* margin-right: 400px; */
+}
+
+.hero_section2{
+    /* background-color: black; */
+    height: 100vh;
+}
+
+.the_menu{
+    text-align: center;
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+}
+
+
+.prince{
+    text-align: center;
+    /* border: 1px solid blue ; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 800px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    /* padding: 20px 30px; */
+    margin-top: 40px;
+}
+
+.pizza{
+color: white;
+font-size: 10px;
+background-color: red;
+
+/* padding-left: 60px; */
+/* padding-right: ; */
+padding-inline: 150px;
+padding-top:20px;
+padding-bottom: 20px;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+/* font-style: italic; */
+/* border: 1px white solid ; */
+font-family: "Caveat", cursive;
+}
+
+.salads{
+    color: white;
+    font-size: 10px;
+    padding-inline: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+}
+
+
+
+.starter{
+    color: white;
+    font-size: 10px;
+    padding-inline: 100px;
+    padding-right: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+    
+    /* border: 1px white solid ; */
+}
+
+
+.list{
+   /* background-color:  color white; */
+   height: 330px;
+   width: 800px;
+   margin: 0 auto;
+
+   /* margin-top: 0px; */
+    /* text-align: center; */
+}
+
+.price1{
+    position: relative;
+    left: 750px;
+    bottom: 40px;
+ 
+    height: 20px;
+    width: 45px;
+    /* text-align: center; */
+    font-size: 10px;
+    padding-inline: 5px;
+    padding-top: 5px;
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+}
+
+.item1{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-inline: 30px;
+    padding-bottom: 10px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+    font-size: large;
+}
+
+.item2{
+    font-size: medium;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+    padding-inline: 30px;
+}
+
+.section2{
+    height: 100vh;
+}
+
+.princess{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 40px; 
+    font-family: "Caveat", cursive;  
+}
+
+
+/* .img{
+    border-radius: 50%;
+    left: 800px
+    bottom: 40px;
+} */
+
+
+.boy{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    /* border: 1px solid black; */
+    font-family: "Caveat", cursive;
+}
+
+
+
+
+.the_chef{
+    border-radius: 50%;
+    /* margin: 0 auto; */
+    /* width: 800px; */
+    margin-left: 450px;
+    /* padding-top: 20px; */
+}
+
+
+.interiors{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    text-align: center;
+    /* flex-direction: row; */
+    /* border: 1px solid black; */
+    font-family: "Caveat", cursive;
+}
+
+
+
+
+.Restrant{
+    background-image: url(./img/restraunt.jpg);
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+
+
+
+
+.section3{
+    height: 100vh;
+}
+
+
+
+.time{
+    /* display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-right: 550px;
+    color: white;
+    font-style: italic; */
+    margin: 0 auto;
+    width: 800px;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: white;
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+}
+
+
+
+.date{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    color: white;
+    /* font-style: italic; */
+    font-size: small;
+}
+
+
+.date2{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: white;
+    /* font-style: italic; */
+    font-size: small;
+    font-family: "Caveat", cursive;
+}
+
+
+.time2{
+    margin-left: 400px;
+}
+
+
+.time3{
+    margin-left: 370px;
+}
+
+
+.date3{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: white;
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+    font-size: small;
+}
+
+
+.time4{
+    margin-left: 380px;
+}
+
+
+
+.map{
+    background-image: url(./img/map.jpg);
+    height: 80vh;
+    margin-top: 40px;
+}
+
+.contact{
+    background-color: grey;
+    height: 100vh;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    
+}
+
+
+.end{
+    text-align: center;
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic;    */
+    font-family: "Caveat", cursive;
+    padding-top: 40px;
+    font-size: larger;
+}
+
+
+
+.info{
+    /* display: inline; */
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 40px;
+    /* font-size: small */
+    color: white;
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+    /* font-family: "Caveat", cursive; */
+}
+
+.type2{
+    margin-bottom: 20px;
+}
+
+
+.type{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+
+
+.fyi{
+    background-color: black;
+    /* height: 30px; */
+    /* font-style: italic; */
+    font-family: "Caveat", cursive;
+    font-size: small;
+    padding: 4px;
+}
+
+
+.input_box{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: smaller;
+    padding-left: 10px;
+    font-family: "Caveat", cursive;
+    /* font-style: italic; */
+
+}
+
+
+.table{
+    font-size: 25px;
+}
+
+
+.footer{
+    background-color: black;
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caveat", cursive;
+    
+    /* font-style: italic; */
+}
+
+
+::placeholder{
+    color: peachpuff;
+    font-size: 9px;
+}
+
+
+
+
+/* .caveat-brush-regular {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&display=swap'); */
+
+
+
+/* font-family: "Caveat Brush", cursive */
